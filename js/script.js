@@ -19,9 +19,11 @@ btn.addEventListener("click", function () {
         else {
         }
     } if (risulta) {
-        messaggio.innerHTML = "Loggato";
+        messaggio.innerHTML = "Utente Loggato";
+        console.log(messaggio);
     } else {
         messaggio.innerHTML = 'Email non valida - Inserisci un email valida';
+        console.log(messaggio);
     }
 
 
