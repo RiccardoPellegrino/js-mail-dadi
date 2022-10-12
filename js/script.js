@@ -25,7 +25,7 @@ btn.addEventListener("click", function () {
         messaggio.innerHTML = 'Email non valida - Inserisci un email valida';
         console.log(messaggio);
     }
-
+    document.getElementById("mail").value ='';
 
 })
 
